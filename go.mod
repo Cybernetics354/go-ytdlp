@@ -1,4 +1,4 @@
-module github.com/Cybernetics354/go-ytdlp
+module github.com/lrstanley/go-ytdlp
 
 go 1.23.0
 
