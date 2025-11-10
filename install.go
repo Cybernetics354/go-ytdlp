@@ -30,7 +30,7 @@ import (
 
 const (
 	xdgCacheDir     = "go-ytdlp"       // Cache directory that will be appended to the XDG cache directory.
-	downloadTimeout = 30 * time.Second // HTTP timeout for downloading the yt-dlp binary.
+	downloadTimeout = 5 * 60 * time.Second // HTTP timeout for downloading the yt-dlp binary.
 )
 
 // GetCacheDir returns the cache directory for go-ytdlp. Note that it may not be created yet.
